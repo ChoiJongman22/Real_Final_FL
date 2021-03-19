@@ -4,9 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:practicefr/data/join_or_login.dart';
 import 'package:practicefr/helper/loginBackground.dart';
-import 'file:///C:/Users/Msi/33LAB_FR/Practice_FLUME/practice_FR/practicefr/lib/ui_src/forgetPassword_page.dart';
-import 'file:///C:/Users/Msi/33LAB_FR/Practice_FLUME/practice_FR/practicefr/lib/ui_src/home_page.dart';
+import 'package:practicefr/ui_src/forgetPassword_page.dart';
 import 'package:provider/provider.dart';
+
+import 'home_page.dart';
 
 class LoginPage extends StatelessWidget {
   final GlobalKey<FormState> _formKey = GlobalKey();
